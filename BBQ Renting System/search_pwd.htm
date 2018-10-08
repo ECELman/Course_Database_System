@@ -1,0 +1,45 @@
+﻿<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>查詢密碼</title>
+  </head>
+  <body>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <style type="text/css"> 
+	body
+	{
+		background-color:rgba(255,255,255,0.8);
+		background-image: url("restaurant.jpg");
+		background-blend-mode: lighten;
+		margin-bottom: 100px;
+		margin-top: 30px;
+		margin-right: 200px;
+		margin-left: 200px;
+	}
+	</style>
+    <p align="center"><img src="inquire.png"></p>
+    <form class="form-inline" method="post" action="search.php" >
+      <table align="center">
+		<tr>
+			<div class="form-group">
+				<td align="center"><label><font size = "5">帳號：</font></label>
+				<input type="text" name = "account" class="form-control" placeholder="account" size="20"></td>
+			</div>
+		</tr>
+		<tr>
+          <td align="center"> 
+			<div class="form-group">
+				<div class="col-sm-offset-0 col-sm-20">
+					<br><br>
+					<button type="submit" class="btn btn-primary">查詢</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<button type="reset" class="btn btn-default">重填</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<button type="button" class="btn btn-default" onClick='location.href="main.php"'>回上頁</button>
+				</div>
+			</div>
+          </td>
+		</tr>
+      </table>
+    </form>
+  </body>
+</html>
